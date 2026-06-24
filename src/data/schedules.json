@@ -21507,6 +21507,16 @@
   {
     "personId": "member-082",
     "date": "2026-06-24",
+    "slotLabel": "오후 방문",
+    "sequence": 5,
+    "companyId": "company-35",
+    "startTime": "14:00",
+    "endTime": "16:40",
+    "note": "배정 차량: 2호차"
+  },
+  {
+    "personId": "member-082",
+    "date": "2026-06-24",
     "slotLabel": "저녁 일정",
     "sequence": 6,
     "companyId": "company-02",
@@ -21762,6 +21772,16 @@
   {
     "personId": "member-083",
     "date": "2026-06-24",
+    "slotLabel": "오후 방문",
+    "sequence": 5,
+    "companyId": "company-35",
+    "startTime": "14:00",
+    "endTime": "16:40",
+    "note": "배정 차량: 2호차"
+  },
+  {
+    "personId": "member-083",
+    "date": "2026-06-24",
     "slotLabel": "저녁 일정",
     "sequence": 6,
     "companyId": "company-02",
@@ -22017,6 +22037,16 @@
   {
     "personId": "member-084",
     "date": "2026-06-24",
+    "slotLabel": "오후 방문",
+    "sequence": 5,
+    "companyId": "company-35",
+    "startTime": "14:00",
+    "endTime": "16:40",
+    "note": "배정 차량: 2호차"
+  },
+  {
+    "personId": "member-084",
+    "date": "2026-06-24",
     "slotLabel": "저녁 일정",
     "sequence": 6,
     "companyId": "company-02",
@@ -22272,6 +22302,16 @@
   {
     "personId": "member-085",
     "date": "2026-06-24",
+    "slotLabel": "오후 방문",
+    "sequence": 5,
+    "companyId": "company-35",
+    "startTime": "14:00",
+    "endTime": "16:40",
+    "note": "배정 차량: 2호차"
+  },
+  {
+    "personId": "member-085",
+    "date": "2026-06-24",
     "slotLabel": "저녁 일정",
     "sequence": 6,
     "companyId": "company-02",
@@ -22523,6 +22563,16 @@
     "startTime": "12:00",
     "endTime": "13:20",
     "note": "배정 차량: 3호차"
+  },
+  {
+    "personId": "member-086",
+    "date": "2026-06-24",
+    "slotLabel": "오후 방문",
+    "sequence": 5,
+    "companyId": "company-35",
+    "startTime": "14:00",
+    "endTime": "16:40",
+    "note": "배정 차량: 2호차"
   },
   {
     "personId": "member-086",
@@ -22778,6 +22828,16 @@
     "startTime": "12:00",
     "endTime": "13:20",
     "note": "배정 차량: 3호차"
+  },
+  {
+    "personId": "member-087",
+    "date": "2026-06-24",
+    "slotLabel": "오후 방문",
+    "sequence": 5,
+    "companyId": "company-35",
+    "startTime": "14:00",
+    "endTime": "16:40",
+    "note": "배정 차량: 2호차"
   },
   {
     "personId": "member-087",
@@ -23033,6 +23093,16 @@
     "startTime": "12:00",
     "endTime": "13:20",
     "note": "배정 차량: 3호차"
+  },
+  {
+    "personId": "member-088",
+    "date": "2026-06-24",
+    "slotLabel": "오후 방문",
+    "sequence": 5,
+    "companyId": "company-35",
+    "startTime": "14:00",
+    "endTime": "16:40",
+    "note": "배정 차량: 2호차"
   },
   {
     "personId": "member-088",
