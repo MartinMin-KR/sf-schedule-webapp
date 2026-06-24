@@ -2,14 +2,16 @@ import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { DateList } from '../components/DateList'
 import { ScheduleTimeline } from '../components/ScheduleTimeline'
+import { useAppData } from '../lib/data-context'
 import { getScheduleView } from '../lib/schedule'
 
 export function SchedulePage() {
+  const { data } = useAppData()
   const navigate = useNavigate()
   const { personId = '', date = '' } = useParams()
   const [, setTick] = useState(0)
   const [touchStartX, setTouchStartX] = useState<number | null>(null)
-  const view = getScheduleView(personId, date)
+  const view = getScheduleView(data!, personId, date)
 
   useEffect(() => {
     const intervalId = window.setInterval(() => {

@@ -45,3 +45,10 @@ export interface ScheduleViewItem extends ScheduleItem {
   travelMinutes: number | null
   status: ScheduleStatus
 }
+
+export interface AppData {
+  groups: Group[]
+  members: Member[]
+  companies: Company[]
+  schedules: ScheduleItem[]
+}

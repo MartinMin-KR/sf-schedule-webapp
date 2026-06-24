@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
+import { useAppData } from '../lib/data-context'
 import { GroupDropdown } from '../components/GroupDropdown'
 import { MemberList } from '../components/MemberList'
 import { getGroupsWithCounts, getMemberById, getMembersByGroupId } from '../lib/lookup'
@@ -7,11 +8,12 @@ import { getDefaultDateForPerson } from '../lib/schedule'
 import { getStoredPersonId, setStoredPersonId } from '../lib/storage'
 
 export function HomePage() {
+  const { data } = useAppData()
   const navigate = useNavigate()
   const [searchParams, setSearchParams] = useSearchParams()
   const [selectedGroupId, setSelectedGroupId] = useState(searchParams.get('group') ?? '')
-  const groups = useMemo(() => getGroupsWithCounts(), [])
-  const members = selectedGroupId ? getMembersByGroupId(selectedGroupId) : []
+  const groups = useMemo(() => getGroupsWithCounts(data!), [data])
+  const members = selectedGroupId ? getMembersByGroupId(data!, selectedGroupId) : []
 
   useEffect(() => {
     const groupFromUrl = searchParams.get('group') ?? ''
@@ -26,19 +28,19 @@ export function HomePage() {
       return
     }
 
-    const member = getMemberById(savedPersonId)
+    const member = getMemberById(data!, savedPersonId)
     if (!member) {
       return
     }
 
-    const defaultDate = getDefaultDateForPerson(savedPersonId)
+    const defaultDate = getDefaultDateForPerson(data!, savedPersonId)
     if (defaultDate) {
       navigate(`/person/${savedPersonId}/date/${defaultDate}`, { replace: true })
       return
     }
 
     navigate(`/person/${savedPersonId}`, { replace: true })
-  }, [navigate])
+  }, [data, navigate])
 
   function handleGroupChange(groupId: string) {
     setSelectedGroupId(groupId)
@@ -67,7 +69,7 @@ export function HomePage() {
               members={members}
               onSelect={(memberId) => {
                 setStoredPersonId(memberId)
-                const defaultDate = getDefaultDateForPerson(memberId)
+                const defaultDate = getDefaultDateForPerson(data!, memberId)
                 if (defaultDate) {
                   navigate(`/person/${memberId}/date/${defaultDate}`)
                   return

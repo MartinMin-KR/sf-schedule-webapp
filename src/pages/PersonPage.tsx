@@ -1,20 +1,22 @@
 import { useEffect, useMemo } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { DateList } from '../components/DateList'
+import { useAppData } from '../lib/data-context'
 import { getGroupById } from '../lib/lookup'
 import { getDefaultDateForPerson, getPersonContext } from '../lib/schedule'
 
 export function PersonPage() {
+  const { data } = useAppData()
   const navigate = useNavigate()
   const { personId = '' } = useParams()
-  const context = useMemo(() => getPersonContext(personId), [personId])
+  const context = useMemo(() => getPersonContext(data!, personId), [data, personId])
 
   useEffect(() => {
-    const defaultDate = getDefaultDateForPerson(personId)
+    const defaultDate = getDefaultDateForPerson(data!, personId)
     if (defaultDate) {
       navigate(`/person/${personId}/date/${defaultDate}`, { replace: true })
     }
-  }, [navigate, personId])
+  }, [data, navigate, personId])
 
   if (!context) {
     return (
@@ -29,7 +31,7 @@ export function PersonPage() {
     )
   }
 
-  const group = getGroupById(context.member.groupId)
+  const group = getGroupById(data!, context.member.groupId)
 
   return (
     <main className="page">

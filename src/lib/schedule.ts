@@ -6,7 +6,7 @@ import {
   getSchedulesByPersonAndDate,
 } from './lookup'
 import { getScheduleStatus } from './progress'
-import type { ScheduleViewItem } from '../types'
+import type { AppData, ScheduleViewItem } from '../types'
 
 function getTodayInLosAngeles() {
   return new Intl.DateTimeFormat('en-CA', {
@@ -17,20 +17,20 @@ function getTodayInLosAngeles() {
   }).format(new Date())
 }
 
-export function getPersonContext(personId: string) {
-  const member = getMemberById(personId)
+export function getPersonContext(data: AppData, personId: string) {
+  const member = getMemberById(data, personId)
   if (!member) {
     return null
   }
 
   return {
     member,
-    dates: getAvailableDatesForPerson(member.id),
+    dates: getAvailableDatesForPerson(data, member.id),
   }
 }
 
-export function getDefaultDateForPerson(personId: string) {
-  const context = getPersonContext(personId)
+export function getDefaultDateForPerson(data: AppData, personId: string) {
+  const context = getPersonContext(data, personId)
   if (!context || context.dates.length === 0) {
     return null
   }
@@ -49,16 +49,16 @@ export function getDefaultDateForPerson(personId: string) {
   return context.dates[0]
 }
 
-export function getScheduleView(personId: string, date: string) {
-  const context = getPersonContext(personId)
+export function getScheduleView(data: AppData, personId: string, date: string) {
+  const context = getPersonContext(data, personId)
   if (!context) {
     return null
   }
 
-  const rawItems = getSchedulesByPersonAndDate(context.member.id, date)
+  const rawItems = getSchedulesByPersonAndDate(data, context.member.id, date)
 
   const items = rawItems.reduce<ScheduleViewItem[]>((result, item, index) => {
-    const company = getCompanyById(item.companyId)
+    const company = getCompanyById(data, item.companyId)
     if (!company) {
       return result
     }
