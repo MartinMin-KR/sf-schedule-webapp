@@ -1,7 +1,9 @@
 import { read, utils } from 'xlsx'
 import type { AppData, Company, Group, Member, ScheduleItem } from '../types'
 
-const WORKBOOK_URL = '/silicon-valley-bus-schedule.xlsx'
+const GITHUB_WORKBOOK_URL =
+  'https://raw.githubusercontent.com/MartinMin-KR/sf-schedule-webapp/main/public/silicon-valley-bus-schedule.xlsx'
+const LOCAL_WORKBOOK_URL = '/silicon-valley-bus-schedule.xlsx'
 const YEAR = 2026
 const MEMBER_SHEET_PATTERN = /^전체명단/i
 
@@ -29,7 +31,7 @@ function uniqueSlug(base: string, used: Set<string>) {
 }
 
 function parsePlace(rawValue: string) {
-  const cleaned = rawValue.replace(/\s+/g, ' ').trim()
+  const cleaned = rawValue.replace(/\s+/g, ' ').trim().replace(/^공창\b/, '공항')
   const matched = cleaned.match(/^(.*?)\s*\((.*?)\)\s*$/)
   if (!matched) {
     return { placeName: cleaned, note: null as string | null }
@@ -75,7 +77,16 @@ function resolveSlot(rawHeader: string, occurrence: number) {
 }
 
 export async function loadWorkbookData(): Promise<AppData> {
-  const buffer = await (await fetch(WORKBOOK_URL)).arrayBuffer()
+  const timestamp = Date.now()
+  const githubResponse = await fetch(`${GITHUB_WORKBOOK_URL}?t=${timestamp}`, {
+    cache: 'no-store',
+  }).catch(() => null)
+
+  const buffer =
+    githubResponse && githubResponse.ok
+      ? await githubResponse.arrayBuffer()
+      : await (await fetch(`${LOCAL_WORKBOOK_URL}?t=${timestamp}`, { cache: 'no-store' })).arrayBuffer()
+
   const workbook = read(buffer)
   const preferredSheetName =
     workbook.SheetNames.find((sheetName) => MEMBER_SHEET_PATTERN.test(sheetName)) ??
