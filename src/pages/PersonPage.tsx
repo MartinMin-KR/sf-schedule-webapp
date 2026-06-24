@@ -4,6 +4,7 @@ import { DateList } from '../components/DateList'
 import { useAppData } from '../lib/data-context'
 import { getGroupById } from '../lib/lookup'
 import { getDefaultDateForPerson, getPersonContext } from '../lib/schedule'
+import { clearStoredPersonId } from '../lib/storage'
 
 export function PersonPage() {
   const { data } = useAppData()
@@ -40,7 +41,10 @@ export function PersonPage() {
           type="button"
           className="icon-button top-back-button"
           aria-label="뒤로가기"
-          onClick={() => navigate(`/?group=${context.member.groupId}`)}
+          onClick={() => {
+            clearStoredPersonId()
+            navigate(`/?group=${context.member.groupId}`)
+          }}
         >
           ←
         </button>

@@ -4,6 +4,7 @@ import { DateList } from '../components/DateList'
 import { ScheduleTimeline } from '../components/ScheduleTimeline'
 import { useAppData } from '../lib/data-context'
 import { getScheduleView } from '../lib/schedule'
+import { clearStoredPersonId } from '../lib/storage'
 
 export function SchedulePage() {
   const { data } = useAppData()
@@ -71,7 +72,10 @@ export function SchedulePage() {
           type="button"
           className="icon-button top-back-button"
           aria-label="뒤로가기"
-          onClick={() => navigate(`/?group=${view.member.groupId}`)}
+          onClick={() => {
+            clearStoredPersonId()
+            navigate(`/?group=${view.member.groupId}`)
+          }}
         >
           ←
         </button>
