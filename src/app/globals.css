@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+:root {
+  --bg: oklch(0.97 0.02 94);
+  --bg-strong: oklch(0.93 0.03 90);
+  --panel: oklch(0.985 0.01 98);
+  --panel-tint: oklch(0.95 0.02 88);
+  --ink: oklch(0.25 0.04 258);
+  --muted: oklch(0.53 0.03 248);
+  --line: oklch(0.84 0.03 82);
+  --accent: oklch(0.63 0.13 185);
+  --accent-soft: oklch(0.91 0.05 178);
+  --accent-strong: oklch(0.47 0.1 188);
+  --signal: oklch(0.8 0.12 84);
+  --signal-soft: oklch(0.94 0.04 84);
+  --danger: oklch(0.57 0.16 29);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top, color-mix(in oklab, white 78%, transparent) 0%, transparent 36%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg-strong) 100%);
+  color: var(--ink);
+  font-family: var(--font-body), sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), sans-serif;
+  letter-spacing: -0.02em;
+}
+
+button,
+textarea {
+  font: inherit;
+}
+
+textarea::placeholder {
+  color: color-mix(in oklab, var(--muted) 70%, white);
+}
+
+::selection {
+  background: color-mix(in oklab, var(--signal) 40%, white);
+}
+
+.ledger-paper {
+  background:
+    linear-gradient(180deg, color-mix(in oklab, var(--panel) 92%, white) 0%, var(--panel-tint) 100%);
+  border: 1px solid color-mix(in oklab, var(--line) 80%, white);
+  box-shadow:
+    0 18px 42px rgba(36, 33, 24, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+.ledger-rule {
+  border-top: 1px dashed color-mix(in oklab, var(--line) 76%, var(--muted));
+}
+
+.notebook-grid {
+  background-image:
+    linear-gradient(to right, rgba(29, 110, 98, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(29, 110, 98, 0.05) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.section-kicker {
+  letter-spacing: 0.18em;
+}
+
+.tab-shadow {
+  box-shadow:
+    0 -8px 24px rgba(36, 33, 24, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.82);
+}
+
+.hero-wash {
+  background:
+    radial-gradient(circle at 15% 10%, color-mix(in oklab, var(--signal) 32%, transparent), transparent 30%),
+    radial-gradient(circle at 100% 0%, color-mix(in oklab, var(--accent) 22%, transparent), transparent 34%),
+    linear-gradient(145deg, color-mix(in oklab, var(--panel) 94%, white), color-mix(in oklab, var(--panel-tint) 82%, white));
+}
+
+.editorial-shadow {
+  box-shadow:
+    0 18px 48px rgba(33, 34, 42, 0.08),
+    0 2px 0 rgba(255, 255, 255, 0.9) inset;
+}
+
+.focus-note {
+  transform: rotate(-2deg);
+}
+
+.focus-note:nth-child(2n) {
+  transform: rotate(2deg);
+}
+
+.signal-pill {
+  background: color-mix(in oklab, var(--signal) 35%, white);
+  color: var(--ink);
+}
+
+.accent-rule {
+  background:
+    linear-gradient(90deg, color-mix(in oklab, var(--accent) 100%, white), color-mix(in oklab, var(--signal) 88%, white));
+}
