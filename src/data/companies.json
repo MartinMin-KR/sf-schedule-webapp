@@ -1,0 +1,170 @@
+[
+  {
+    "id": "company-01",
+    "name": "스탠포드",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-02",
+    "name": "인앤아웃",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "pnp",
+    "name": "PnP",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-04",
+    "name": "쌀국수",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-05",
+    "name": "호텔 차량교체",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-06",
+    "name": "블룸에너지",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "uc",
+    "name": "UC버클리",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-08",
+    "name": "브리즈바이오",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-10",
+    "name": "스테이크",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-11",
+    "name": "치폴레",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "bbq",
+    "name": "BBQ",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-13",
+    "name": "공항",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-14",
+    "name": "시스코",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-15",
+    "name": "베어로봇틱",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-16",
+    "name": "동순원",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "39",
+    "name": "피어39 자유식",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-18",
+    "name": "그레이트몰",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-19",
+    "name": "자유식",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-20",
+    "name": "망고부스트",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-21",
+    "name": "구글",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-22",
+    "name": "조비",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-23",
+    "name": "몰로코",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-24",
+    "name": "애플",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-25",
+    "name": "중식 후 호텔 대기 후 바로 세일즈포스 이동",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "company-26",
+    "name": "세일즈포스",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "sk-hy",
+    "name": "SK Hy 중식",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  },
+  {
+    "id": "sk-hynix",
+    "name": "SK Hynix",
+    "description": "실제 버스 일정표에서 가져온 방문 장소입니다.",
+    "address": ""
+  }
+]

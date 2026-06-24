@@ -1,0 +1,647 @@
+[
+  {
+    "id": "member-001",
+    "name": "김규서",
+    "groupId": "group-11"
+  },
+  {
+    "id": "member-002",
+    "name": "김예주",
+    "groupId": "group-11"
+  },
+  {
+    "id": "member-003",
+    "name": "박민강",
+    "groupId": "group-11"
+  },
+  {
+    "id": "member-004",
+    "name": "안동현",
+    "groupId": "group-11"
+  },
+  {
+    "id": "member-005",
+    "name": "양지훈",
+    "groupId": "group-11"
+  },
+  {
+    "id": "member-006",
+    "name": "오승빈",
+    "groupId": "group-11"
+  },
+  {
+    "id": "member-007",
+    "name": "윤형태",
+    "groupId": "group-11"
+  },
+  {
+    "id": "member-008",
+    "name": "정석진",
+    "groupId": "group-11"
+  },
+  {
+    "id": "member-009",
+    "name": "강민기",
+    "groupId": "group-12"
+  },
+  {
+    "id": "member-010",
+    "name": "김경민",
+    "groupId": "group-12"
+  },
+  {
+    "id": "member-011",
+    "name": "박효빈",
+    "groupId": "group-12"
+  },
+  {
+    "id": "member-012",
+    "name": "손영민",
+    "groupId": "group-12"
+  },
+  {
+    "id": "b",
+    "name": "이동건B",
+    "groupId": "group-12"
+  },
+  {
+    "id": "a",
+    "name": "이준수A",
+    "groupId": "group-12"
+  },
+  {
+    "id": "member-015",
+    "name": "표민재",
+    "groupId": "group-12"
+  },
+  {
+    "id": "member-016",
+    "name": "황현준",
+    "groupId": "group-12"
+  },
+  {
+    "id": "member-017",
+    "name": "국도현",
+    "groupId": "group-4"
+  },
+  {
+    "id": "a-2",
+    "name": "김도현A",
+    "groupId": "group-4"
+  },
+  {
+    "id": "member-019",
+    "name": "김상민",
+    "groupId": "group-4"
+  },
+  {
+    "id": "member-020",
+    "name": "김주은",
+    "groupId": "group-4"
+  },
+  {
+    "id": "member-021",
+    "name": "박재현",
+    "groupId": "group-4"
+  },
+  {
+    "id": "member-022",
+    "name": "한지민",
+    "groupId": "group-4"
+  },
+  {
+    "id": "member-023",
+    "name": "현승우",
+    "groupId": "group-4"
+  },
+  {
+    "id": "member-024",
+    "name": "황원준",
+    "groupId": "group-4"
+  },
+  {
+    "id": "member-025",
+    "name": "유지환",
+    "groupId": "group-16"
+  },
+  {
+    "id": "member-026",
+    "name": "이강록",
+    "groupId": "group-16"
+  },
+  {
+    "id": "member-027",
+    "name": "이인혁",
+    "groupId": "group-16"
+  },
+  {
+    "id": "member-028",
+    "name": "전상훈",
+    "groupId": "group-16"
+  },
+  {
+    "id": "member-029",
+    "name": "진우찬",
+    "groupId": "group-16"
+  },
+  {
+    "id": "member-030",
+    "name": "최은혁",
+    "groupId": "group-16"
+  },
+  {
+    "id": "member-031",
+    "name": "홍성연",
+    "groupId": "group-16"
+  },
+  {
+    "id": "member-032",
+    "name": "한세린",
+    "groupId": "group-16"
+  },
+  {
+    "id": "member-033",
+    "name": "김동환",
+    "groupId": "group-3"
+  },
+  {
+    "id": "member-034",
+    "name": "김민재",
+    "groupId": "group-3"
+  },
+  {
+    "id": "member-035",
+    "name": "김세현",
+    "groupId": "group-3"
+  },
+  {
+    "id": "member-036",
+    "name": "남주성",
+    "groupId": "group-3"
+  },
+  {
+    "id": "member-037",
+    "name": "배규현",
+    "groupId": "group-3"
+  },
+  {
+    "id": "member-038",
+    "name": "이한영",
+    "groupId": "group-3"
+  },
+  {
+    "id": "member-039",
+    "name": "전혜원",
+    "groupId": "group-3"
+  },
+  {
+    "id": "member-040",
+    "name": "조현채",
+    "groupId": "group-3"
+  },
+  {
+    "id": "member-041",
+    "name": "김태훈",
+    "groupId": "group-6"
+  },
+  {
+    "id": "member-042",
+    "name": "박원희",
+    "groupId": "group-6"
+  },
+  {
+    "id": "b-2",
+    "name": "이도윤B",
+    "groupId": "group-6"
+  },
+  {
+    "id": "member-044",
+    "name": "이예준",
+    "groupId": "group-6"
+  },
+  {
+    "id": "member-045",
+    "name": "주연우",
+    "groupId": "group-6"
+  },
+  {
+    "id": "member-046",
+    "name": "최수현",
+    "groupId": "group-6"
+  },
+  {
+    "id": "member-047",
+    "name": "최진우",
+    "groupId": "group-6"
+  },
+  {
+    "id": "member-048",
+    "name": "하주현",
+    "groupId": "group-6"
+  },
+  {
+    "id": "member-049",
+    "name": "김민서",
+    "groupId": "group-10"
+  },
+  {
+    "id": "member-050",
+    "name": "박성현",
+    "groupId": "group-10"
+  },
+  {
+    "id": "member-051",
+    "name": "송상준",
+    "groupId": "group-10"
+  },
+  {
+    "id": "member-052",
+    "name": "양원준",
+    "groupId": "group-10"
+  },
+  {
+    "id": "member-053",
+    "name": "정태영",
+    "groupId": "group-10"
+  },
+  {
+    "id": "member-054",
+    "name": "조상우",
+    "groupId": "group-10"
+  },
+  {
+    "id": "member-055",
+    "name": "최민석",
+    "groupId": "group-10"
+  },
+  {
+    "id": "member-056",
+    "name": "함선우",
+    "groupId": "group-10"
+  },
+  {
+    "id": "member-057",
+    "name": "김재홍",
+    "groupId": "group-14"
+  },
+  {
+    "id": "member-058",
+    "name": "김정현",
+    "groupId": "group-14"
+  },
+  {
+    "id": "member-059",
+    "name": "남성우",
+    "groupId": "group-14"
+  },
+  {
+    "id": "member-060",
+    "name": "신유찬",
+    "groupId": "group-14"
+  },
+  {
+    "id": "b-3",
+    "name": "이준수B",
+    "groupId": "group-14"
+  },
+  {
+    "id": "member-062",
+    "name": "장현규",
+    "groupId": "group-14"
+  },
+  {
+    "id": "member-063",
+    "name": "전소율",
+    "groupId": "group-14"
+  },
+  {
+    "id": "member-064",
+    "name": "정서윤",
+    "groupId": "group-14"
+  },
+  {
+    "id": "member-065",
+    "name": "고윤재",
+    "groupId": "group-8"
+  },
+  {
+    "id": "member-066",
+    "name": "권이루",
+    "groupId": "group-8"
+  },
+  {
+    "id": "member-067",
+    "name": "민영환",
+    "groupId": "group-8"
+  },
+  {
+    "id": "member-068",
+    "name": "백지원",
+    "groupId": "group-8"
+  },
+  {
+    "id": "member-069",
+    "name": "유준우",
+    "groupId": "group-8"
+  },
+  {
+    "id": "a-3",
+    "name": "이동건A",
+    "groupId": "group-8"
+  },
+  {
+    "id": "member-071",
+    "name": "이승환",
+    "groupId": "group-8"
+  },
+  {
+    "id": "member-072",
+    "name": "이윤재",
+    "groupId": "group-8"
+  },
+  {
+    "id": "member-073",
+    "name": "김건우",
+    "groupId": "group-7"
+  },
+  {
+    "id": "member-074",
+    "name": "김민규",
+    "groupId": "group-7"
+  },
+  {
+    "id": "member-075",
+    "name": "김태한",
+    "groupId": "group-7"
+  },
+  {
+    "id": "member-076",
+    "name": "서정우",
+    "groupId": "group-7"
+  },
+  {
+    "id": "member-077",
+    "name": "선재민",
+    "groupId": "group-7"
+  },
+  {
+    "id": "member-078",
+    "name": "윤예영",
+    "groupId": "group-7"
+  },
+  {
+    "id": "member-079",
+    "name": "이은우",
+    "groupId": "group-7"
+  },
+  {
+    "id": "member-080",
+    "name": "최시원",
+    "groupId": "group-7"
+  },
+  {
+    "id": "member-081",
+    "name": "박민서",
+    "groupId": "group-9"
+  },
+  {
+    "id": "member-082",
+    "name": "박수민",
+    "groupId": "group-9"
+  },
+  {
+    "id": "member-083",
+    "name": "송혁규",
+    "groupId": "group-9"
+  },
+  {
+    "id": "member-084",
+    "name": "신연우",
+    "groupId": "group-9"
+  },
+  {
+    "id": "member-085",
+    "name": "윤승준",
+    "groupId": "group-9"
+  },
+  {
+    "id": "member-086",
+    "name": "이승주",
+    "groupId": "group-9"
+  },
+  {
+    "id": "member-087",
+    "name": "정승환",
+    "groupId": "group-9"
+  },
+  {
+    "id": "member-088",
+    "name": "정유상",
+    "groupId": "group-9"
+  },
+  {
+    "id": "b-4",
+    "name": "김도현B",
+    "groupId": "group-13"
+  },
+  {
+    "id": "member-090",
+    "name": "박수아",
+    "groupId": "group-13"
+  },
+  {
+    "id": "member-091",
+    "name": "박찬서",
+    "groupId": "group-13"
+  },
+  {
+    "id": "a-4",
+    "name": "이도윤A",
+    "groupId": "group-13"
+  },
+  {
+    "id": "member-093",
+    "name": "이정은",
+    "groupId": "group-13"
+  },
+  {
+    "id": "member-094",
+    "name": "이해랑",
+    "groupId": "group-13"
+  },
+  {
+    "id": "member-095",
+    "name": "전무성",
+    "groupId": "group-13"
+  },
+  {
+    "id": "member-096",
+    "name": "진가윤",
+    "groupId": "group-13"
+  },
+  {
+    "id": "member-097",
+    "name": "김동욱",
+    "groupId": "group-2"
+  },
+  {
+    "id": "member-098",
+    "name": "남민서",
+    "groupId": "group-2"
+  },
+  {
+    "id": "member-099",
+    "name": "배성재",
+    "groupId": "group-2"
+  },
+  {
+    "id": "member-100",
+    "name": "이지후",
+    "groupId": "group-2"
+  },
+  {
+    "id": "member-101",
+    "name": "임규민",
+    "groupId": "group-2"
+  },
+  {
+    "id": "member-102",
+    "name": "정다율",
+    "groupId": "group-2"
+  },
+  {
+    "id": "member-103",
+    "name": "정원우",
+    "groupId": "group-2"
+  },
+  {
+    "id": "member-104",
+    "name": "조무겸",
+    "groupId": "group-2"
+  },
+  {
+    "id": "member-105",
+    "name": "김경수",
+    "groupId": "group-5"
+  },
+  {
+    "id": "member-106",
+    "name": "김수형",
+    "groupId": "group-5"
+  },
+  {
+    "id": "member-107",
+    "name": "김여민",
+    "groupId": "group-5"
+  },
+  {
+    "id": "member-108",
+    "name": "김은우",
+    "groupId": "group-5"
+  },
+  {
+    "id": "member-109",
+    "name": "박성원",
+    "groupId": "group-5"
+  },
+  {
+    "id": "member-110",
+    "name": "신준우",
+    "groupId": "group-5"
+  },
+  {
+    "id": "member-111",
+    "name": "임현지",
+    "groupId": "group-5"
+  },
+  {
+    "id": "member-112",
+    "name": "조하연",
+    "groupId": "group-5"
+  },
+  {
+    "id": "member-113",
+    "name": "김동언",
+    "groupId": "group-1"
+  },
+  {
+    "id": "member-114",
+    "name": "류궁",
+    "groupId": "group-1"
+  },
+  {
+    "id": "member-115",
+    "name": "박소윤",
+    "groupId": "group-1"
+  },
+  {
+    "id": "member-116",
+    "name": "윤희건",
+    "groupId": "group-1"
+  },
+  {
+    "id": "member-117",
+    "name": "이준호",
+    "groupId": "group-1"
+  },
+  {
+    "id": "member-118",
+    "name": "조선하",
+    "groupId": "group-1"
+  },
+  {
+    "id": "member-119",
+    "name": "최민준",
+    "groupId": "group-1"
+  },
+  {
+    "id": "member-120",
+    "name": "최여원",
+    "groupId": "group-1"
+  },
+  {
+    "id": "member-121",
+    "name": "하태혁",
+    "groupId": "group-1"
+  },
+  {
+    "id": "member-122",
+    "name": "고유석",
+    "groupId": "group-15"
+  },
+  {
+    "id": "member-123",
+    "name": "김범준",
+    "groupId": "group-15"
+  },
+  {
+    "id": "member-124",
+    "name": "박서인",
+    "groupId": "group-15"
+  },
+  {
+    "id": "member-125",
+    "name": "안현준",
+    "groupId": "group-15"
+  },
+  {
+    "id": "member-126",
+    "name": "이윤우",
+    "groupId": "group-15"
+  },
+  {
+    "id": "member-127",
+    "name": "장우진",
+    "groupId": "group-15"
+  },
+  {
+    "id": "member-128",
+    "name": "최준석",
+    "groupId": "group-15"
+  },
+  {
+    "id": "member-129",
+    "name": "최시후",
+    "groupId": "group-15"
+  }
+]
