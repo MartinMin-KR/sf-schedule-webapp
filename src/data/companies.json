@@ -1,0 +1,266 @@
+[
+  {
+    "id": "company-01",
+    "name": "스탠포드",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-02",
+    "name": "인앤아웃",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "pnp",
+    "name": "PnP",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-04",
+    "name": "쌀국수",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-05",
+    "name": "블룸에너지",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "uc",
+    "name": "UC버클리",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "39",
+    "name": "피어39 자유식",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-08",
+    "name": "브리즈바이오",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-09",
+    "name": "그레이트몰 자유식",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-11",
+    "name": "스테이크",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-12",
+    "name": "치폴레",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "bbq",
+    "name": "BBQ",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-14",
+    "name": "공항",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-15",
+    "name": "오리엔테이션 @호텔 미팅룸",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "education-in-ai-era",
+    "name": "Education in AI Era 강연 @호텔 미팅룸",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-17",
+    "name": "네트워킹 @호텔 미팅룸",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "ai-native",
+    "name": "AI-Native 강연 @호텔 미팅룸",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "physical-ai",
+    "name": "Physical AI 강연 @호텔 미팅룸",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "hackathon-1-design-thinking",
+    "name": "Hackathon 1 (Design Thinking)",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "hackathon-2",
+    "name": "Hackathon 2",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-22",
+    "name": "발표회",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-23",
+    "name": "해커톤 시상식 @호텔 미팅룸",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "ai",
+    "name": "AI 시대에 창업자 강연",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-25",
+    "name": "시스코",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-26",
+    "name": "베어로봇틱",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-27",
+    "name": "동순원",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-28",
+    "name": "그레이트몰",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-29",
+    "name": "자유식",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-30",
+    "name": "망고부스트",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-31",
+    "name": "구글",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-32",
+    "name": "조비",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-33",
+    "name": "몰로코",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-34",
+    "name": "애플",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-35",
+    "name": "세일즈포스",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "sk-hy",
+    "name": "SK Hy 중식",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "sk-hynix",
+    "name": "SK Hynix",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-38",
+    "name": "그레이트몰자유식",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-39",
+    "name": "석식",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "ot",
+    "name": "OT준비",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-41",
+    "name": "공창",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "sk",
+    "name": "SK, 엔비디아 드랍",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "nvidia-2",
+    "name": "NVIDIA, 베어",
+    "description": "",
+    "address": ""
+  },
+  {
+    "id": "company-44",
+    "name": "호텔중식",
+    "description": "",
+    "address": ""
+  }
+]
