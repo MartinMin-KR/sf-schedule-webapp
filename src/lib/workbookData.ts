@@ -3,6 +3,7 @@ import type { AppData, Company, Group, Member, ScheduleItem } from '../types'
 
 const WORKBOOK_URL = '/silicon-valley-bus-schedule.xlsx'
 const YEAR = 2026
+const MEMBER_SHEET_PATTERN = /^전체명단/i
 
 type RowValue = string | number | null | undefined
 
@@ -76,7 +77,10 @@ function resolveSlot(rawHeader: string, occurrence: number) {
 export async function loadWorkbookData(): Promise<AppData> {
   const buffer = await (await fetch(WORKBOOK_URL)).arrayBuffer()
   const workbook = read(buffer)
-  const worksheet = workbook.Sheets['정규데이터'] ?? workbook.Sheets[workbook.SheetNames[0]]
+  const preferredSheetName =
+    workbook.SheetNames.find((sheetName) => MEMBER_SHEET_PATTERN.test(sheetName)) ??
+    workbook.SheetNames[0]
+  const worksheet = workbook.Sheets[preferredSheetName]
   const rows = utils.sheet_to_json<RowValue[]>(worksheet, { header: 1, raw: false })
 
   const headers = rows[0] ?? []
